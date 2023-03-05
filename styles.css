@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+img {
+  padding-top: 10px;
+  width: 100px;
+  float: left;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px whitesmoke;
+}
+
+.login-btn {
+  width: 75px;
+  color: white;
+  padding: 8px 0;
+  font-weight: bold;
+  margin-top: 10px;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: transparent;
+  float: right;
+}
+
+.login-btn:hover {
+  background-color: aqua;
+}
+
+.header h1 {
+  color: black;
+  padding-top: 300px;
+  padding-bottom: 0px;
+  font-size: 55px;
+}
+
+.header p {
+  color: white;
+  text-align: center;
+}
+
+.input-group {
+  width: 90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background: white;
+  margin: auto;
+  padding: 2px;
+}
+
+.form-control {
+  border: 0 !important;
+  border-radius: 30px 30px !important;
+  margin: 2px;
+  padding-bottom: 10px;
+  box-shadow: #4861a7;
+}
+
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#5ceba4, #4861a7);
+  border: 0 !important;
+  color: white;
+  padding: 0 20px;
+  margin: 5px;
+  right: 5px;
+  border-radius: 30px 30px !important;
+  box-shadow: none;
+}
+
+.features h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.kolkata {
+  height: 530px;
+}
+
+.pic {
+  height: 530px;
+}
+
+.price {
+  width: 50px;
+  height: 50px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  color: beige;
+  font-style: oblique;
+  font-display: inherit;
+  font-size: medium;
+}
+
+.price :hover {
+  transform: scale(1.5);
+  color: chartreuse;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.rating {
+  padding: 3px;
+  color: goldenrod;
+  top: 10px;
+  right: -2px;
+  position: absolute;
+}
+
+.feature-box {
+  box-shadow: 0 0 15px 1px black;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  padding: 10px;
+  padding-left: 30px;
+  background-color: slategrey;
+}
+
+.gallery h1 {
+  text-align: center;
+  color: white;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-box h4 {
+  text-align: center;
+}
+
+.gallery-box {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.banner {
+  padding-top: 200px;
+  height: 80%;
+  background-image: url(images/photo-1619120238346-978e07731e77.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2,
+p {
+  text-align: right;
+  color: black;
+  font-size: medium;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.banner span {
+  color: red;
+}
+
+.banner p span {
+  color: black;
+  font-weight: bolder;
+}
+
+.banner p :hover {
+  transform: scale(2);
+}
+
+.banner-highlights {
+  padding: 70px 0;
+}
+
+.booking-btn {
+  width: 120px;
+  padding: 8px 0;
+  margin-top: 10px;
+  outline: none !important;
+  border: 2px solid black;
+  border-radius: 50px;
+  background: transparent;
+  position: relative;
+}
+
+.booking-btn:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  padding: 100px;
+  padding-bottom: 1%;
+  background-image: linear-gradient(#2d557d, #14e3d8b0);
+}
+.footer .row img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.footer p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.footer .row .fa-brands {
+  font-size: 20px;
+}
+
+.footer .row .fas {
+  font-size: 20px;
+}
+
+.footer .row .fas:hover {
+  transform: scale(1.5);
+}
+
+.footer .row .fa-brands:hover {
+  transform: scale(1.5);
+}
+
+.footer .copyrights {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.footer .fa-sharp:hover {
+  transform: scale(1.5);
+}
+
+.footer .copy {
+  text-align: center;
+  color: white;
+}
+
+.footer .fa-regular {
+  color: black;
+}

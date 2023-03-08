@@ -30,18 +30,18 @@
           src="images/Untitled design (2).png"
         />
         <button type="button" class="sign-up">Sign up</button>
-        <button type="button" class="login-btn">Login</button>
+        <button onclick="document.getElementById('log1').style.display='block'"type="button" class="login-btn">Login</button>
       </div>
       <h1>Travel across the World</h1>
       <p>Book Your Pack To Explore The New World Around You!!</p>
       <div class="input-group">
         <input
-          type="text"
+          type="text1"
           class="form-control"
           placeholder="Search Country or City"
         />
         <div class="input-group-append">
-          <button type="submit" class="input-group-text btn">Search</button>
+          <button type="submit1" class="input-group-text btn">Search</button>
         </div>
       </div>
       <hr>
@@ -213,6 +213,24 @@
         </div>
       </div>
     </section>
+    <div  id="log1" class="modal">
+    
+      <form method="post">
+        <img
+          class="logo1"
+          src="images/Untitled design (2).png"
+        />
+        <span onclick="document.getElementById('log1').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button class="log" type="submit">Log in</button>
+        <p class="forgot-password">Forgot password?</p>
+      </form>
+    </div>
+    <script src="login.js
+    "></script>
   </body>
   <section class="footer">
     <div class="container">

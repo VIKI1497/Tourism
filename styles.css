@@ -16,8 +16,26 @@ img {
 }
 
 .logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   box-shadow: 0 0 20px whitesmoke;
+}
+
+.sign-up {
+  width: 75px;
+  color: white;
+  padding: 8px 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 10px;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: transparent;
+  float: right;
+}
+
+.sign-up:hover {
+  background-color: aqua;
 }
 
 .login-btn {
@@ -26,6 +44,7 @@ img {
   padding: 8px 0;
   font-weight: bold;
   margin-top: 10px;
+  margin-right: 10px;
   outline: none !important;
   border: 2px solid white;
   border-radius: 50px;

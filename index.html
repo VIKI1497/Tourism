@@ -32,17 +32,22 @@
         <button type="button" class="sign-up">Sign up</button>
         <button onclick="document.getElementById('log1').style.display='block'"type="button" class="login-btn">Login</button>
       </div>
+      <div id="weather"></div>
       <h1>Travel across the World</h1>
       <p>Book Your Pack To Explore The New World Around You!!</p>
+      
       <div class="input-group">
         <input
           type="text1"
           class="form-control"
-          placeholder="Search Country or City"
+          id="location"
+          placeholder="Enter the location"
         />
         <div class="input-group-append">
-          <button type="submit1" class="input-group-text btn">Search</button>
+          <button onclick="getWeather()"    type="submit1" class="input-group-text btn">weather</button>
+          
         </div>
+       
       </div>
       <hr>
     </section>
@@ -53,8 +58,8 @@
           <div class="col-md-4">
             <div class="feature-box">
               <div class="feature-img">
-                <img
-                  src="images/kunal-goswami-WRUyqDOUZrE-unsplash.jpg"
+                <img class="manali"
+                  src="images/manil-raj-FClydb2Mfs4-unsplash.jpg"
                   alt=""
                 />
                 <div class="price">
@@ -156,7 +161,7 @@
             <div class="gallery-box">
               <h4 style="color: whitesmoke;">Manali</h4>
               <img
-                src="images/manil-raj-FClydb2Mfs4-unsplash.jpg"
+                src="images/kunal-goswami-WRUyqDOUZrE-unsplash.jpg"
                 height="470px"
                 alt=""
               />
@@ -215,7 +220,7 @@
     </section>
     <div  id="log1" class="modal">
     
-      <form method="post">
+      <form method="post" class="login-form">
         <img
           class="logo1"
           src="images/Untitled design (2).png"
@@ -223,7 +228,7 @@
         <span onclick="document.getElementById('log1').style.display='none'"
 class="close" title="Close Modal">&times;</span>
         <h2>Login</h2>
-        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
         <button class="log" type="submit">Log in</button>
         <p class="forgot-password">Forgot password?</p>

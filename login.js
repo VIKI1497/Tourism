@@ -27,11 +27,11 @@ function getWeather() {
       var icon =
         "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
       document.getElementById("weather").innerHTML =
-        "<img src='" +
-        icon +
-        "' alt='Weather Icon'>   " +
         city +
         "  |" +
+        "<img  src='" +
+        icon +
+        "' alt='Weather Icon'>   " +
         temp +
         "°C |" +
         desc +
